@@ -23,8 +23,8 @@ submit.addEventListener("click", function (event) {
         error.innerHTML = "Password must match and include at least one uppercase letter, one lowercase letter, one number, and one special character !!"
     } else {
         window.location.href = "Home.html";
-        //local storage be like :) :
-        localStorage.setItem("name" + name.value, name.value)
+        //local storage be like :) ;
+        localStorage.setItem("name", name.value)
         localStorage.setItem(name.value + " useremail ", email.value)
         localStorage.setItem(name.value + " password", pass.value)
     }
