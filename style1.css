@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("https://images.pexels.com/photos/2385477/pexels-photo-2385477.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 300px
+}
+
+.infos {
+    text-align: center;
+    background-color: rgba(90, 88, 88, 0.5);
+    border-radius: 2ch;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 200px;
+}
+
+h1 {
+    margin-left: 40px;
+    color: aliceblue;
+}
+
+#btn {
+    margin-left: 50px;
+    margin-top: 10px;
+    color: aliceblue;
+    border-color: brown;
+    background-color: transparent;
+    font-size: medium;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
+#error-message {
+    color: rgb(255, 5, 5);
+    font-size: 20px;
+    margin-left: 70px;
+}
+
+.infos input {
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-color: brown;
+    margin-left: 10px;
+    background-color: transparent;
+}
+
+.infos input::-moz-placeholder {
+    opacity: 0.5;
+    color: aliceblue;
+}
